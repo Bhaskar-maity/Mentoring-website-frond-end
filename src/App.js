@@ -1,9 +1,9 @@
 import "./App.css";
-import Filtercomponent from "./Components/Filtercomponent";
+import MainComponent from "./Components/MainComponent";
 function App() {
    return (
       <div className="App">
-         <Filtercomponent />
+         <MainComponent />
       </div>
    );
 }

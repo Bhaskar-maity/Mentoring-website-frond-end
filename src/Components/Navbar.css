@@ -1,0 +1,32 @@
+.nav {
+   display: flex;
+   justify-content: space-between;
+   background-color: #fff3e6;
+   align-items: center;
+   font-family: "Montserrat", sans-serif;
+   height: 60px;
+}
+
+.logo {
+   font-size: 2rem;
+   flex: 0.2;
+   padding: 10px 25px;
+}
+.nav-item {
+   /* justify-content: space-between; */
+   flex: 0.5;
+}
+.nav-item ul li {
+   list-style-type: none;
+
+   display: inline-block;
+   padding: 0 20px;
+}
+.nav-item ul li a {
+   text-decoration: none;
+}
+.profile {
+   flex: 0.2;
+
+   float: right;
+}
