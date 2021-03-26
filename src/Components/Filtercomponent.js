@@ -7,7 +7,8 @@ const RenderFilter = () => {
    return (
       <div className="wrap">
          <div className="wrap-inside">
-            <SearchChoice />
+            <SearchChoice data={FiltersData.expertise} />
+            <SearchChoice data={FiltersData.focusarea} />
             <Filtercheckbox data={FiltersData.price} />
             <Filtercheckbox data={FiltersData.session} />
          </div>
@@ -17,23 +18,29 @@ const RenderFilter = () => {
 
 // searchchioce componenet
 const SearchChoice = (props) => {
+   const datas = props.data;
    return (
       <div classNameName="filter_container">
-         <h5 className="filter_heading">Expertise</h5>
+         <h5 className="filter_heading">{datas.name}</h5>
          <div className="sidebar-searchContainer">
-            {/* searchbox */}
-            <div className="searchbox-inside">
-               Branding <CloseIcon style={{ color: "white" }} />
-            </div>
-            <div className="searchbox-inside">
-               Branding <CloseIcon style={{ color: "white" }} />
-            </div>
+            {datas.inside_searchbox.map((searchbox) => {
+               return (
+                  <div className="searchbox-inside">
+                     {searchbox.label} <CloseIcon style={{ color: "white" }} />
+                  </div>
+               );
+            })}
+
             <input type="text" className="form-control" name="" />
             <SearchIcon style={{ color: "#26aa5a" }} />
          </div>
-         <div className="searchbox-outside">
-            Branding <CloseIcon style={{ color: "white" }} />
-         </div>
+         {datas.outside_searchbox.map((searchbox) => {
+            return (
+               <div className="searchbox-outside">
+                  {searchbox.label} <CloseIcon style={{ color: "white" }} />
+               </div>
+            );
+         })}
       </div>
    );
 };
