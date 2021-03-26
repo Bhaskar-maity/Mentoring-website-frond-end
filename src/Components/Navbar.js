@@ -7,7 +7,7 @@ export default function Navbar() {
       <div>
          <nav className="nav">
             <div className="logo">
-               <FiberManualRecordIcon color="green" />
+               <FiberManualRecordIcon style={{ color: "#26aa5a" }} />
                Logo
             </div>
             <div className="nav-item">

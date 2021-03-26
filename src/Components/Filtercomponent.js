@@ -2,6 +2,7 @@ import React from "react";
 import "./Filtercomponent.css";
 import FiltersData from "../FiltersData";
 import SearchIcon from "@material-ui/icons/Search";
+import CloseIcon from "@material-ui/icons/Close";
 const RenderFilter = () => {
    return (
       <div className="wrap">
@@ -17,8 +18,18 @@ const SearchChoice = () => {
       <div classNameName="filter_container">
          <h5 className="filter_heading">Expertise</h5>
          <div className="sidebar-searchContainer">
+            {/* searchbox */}
+            <div className="searchbox-inside">
+               Branding <CloseIcon style={{ color: "white" }} />
+            </div>
+            <div className="searchbox-inside">
+               Branding <CloseIcon style={{ color: "white" }} />
+            </div>
             <input type="text" className="form-control" name="" />
-            <SearchIcon color="#26aa5a" />
+            <SearchIcon style={{ color: "#26aa5a" }} />
+         </div>
+         <div className="searchbox-outside">
+            Branding <CloseIcon style={{ color: "white" }} />
          </div>
       </div>
    );

@@ -14,10 +14,6 @@
    flex: 0.2;
    padding: 1px 25px;
 }
-/* icon */
-.MuiSvgIcon-root {
-   color: #26aa5a;
-}
 
 .nav-item {
    /* justify-content: space-between; */
@@ -44,9 +40,4 @@
    padding-bottom: 15px;
    border-bottom: 4px solid orange;
    color: orange;
-}
-
-/* icon */
-.MuiSvgIcon-root {
-   margin-top: 1px;
 }
