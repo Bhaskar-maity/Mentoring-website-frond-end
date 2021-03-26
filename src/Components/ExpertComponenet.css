@@ -6,3 +6,19 @@
 .wrapExpert h2 {
    padding: 30px 0 20px 25px;
 }
+/* box */
+.box {
+   background-color: #ffffff;
+   display: flex;
+}
+.first {
+   align-items: center;
+   width: 30%;
+}
+.profile-img {
+   width: 150px !important;
+   height: 150px !important;
+}
+.second {
+   width: 70%;
+}
