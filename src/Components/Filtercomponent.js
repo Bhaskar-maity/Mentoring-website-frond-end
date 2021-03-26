@@ -1,16 +1,28 @@
 import React from "react";
 import "./Filtercomponent.css";
 import FiltersData from "../FiltersData";
-
+import SearchIcon from "@material-ui/icons/Search";
 const RenderFilter = () => {
    return (
       <div className="wrap">
+         <SearchChoice />
          <Filtercheckbox data={FiltersData.price} />
          <Filtercheckbox data={FiltersData.session} />
       </div>
    );
 };
 
+const SearchChoice = () => {
+   return (
+      <div classNameName="filter_container">
+         <h5 className="filter_heading">Expertise</h5>
+         <div className="sidebar-searchContainer">
+            <input type="text" className="form-control" name="" />
+            <SearchIcon color="#26aa5a" />
+         </div>
+      </div>
+   );
+};
 // ------- checkbox component-----
 function Filtercheckbox(props) {
    const datas = props.data;

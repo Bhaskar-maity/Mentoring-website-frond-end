@@ -8,10 +8,17 @@
 }
 
 .logo {
+   display: flex;
+   align-items: center;
    font-size: 1.5rem;
    flex: 0.2;
-   padding: 10px 25px;
+   padding: 1px 25px;
 }
+/* icon */
+.MuiSvgIcon-root {
+   color: #26aa5a;
+}
+
 .nav-item {
    /* justify-content: space-between; */
    flex: 0.5;
@@ -37,4 +44,9 @@
    padding-bottom: 15px;
    border-bottom: 4px solid orange;
    color: orange;
+}
+
+/* icon */
+.MuiSvgIcon-root {
+   margin-top: 1px;
 }

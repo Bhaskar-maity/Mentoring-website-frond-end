@@ -1,11 +1,15 @@
 import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
+import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
 export default function Navbar() {
    return (
       <div>
          <nav className="nav">
-            <div className="logo">Logo</div>
+            <div className="logo">
+               <FiberManualRecordIcon color="green" />
+               Logo
+            </div>
             <div className="nav-item">
                <ul>
                   <li>
