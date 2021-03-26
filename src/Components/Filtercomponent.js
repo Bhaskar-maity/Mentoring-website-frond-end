@@ -6,15 +6,75 @@ import CloseIcon from "@material-ui/icons/Close";
 const RenderFilter = () => {
    return (
       <div className="wrap">
+         <h2>Filters</h2>
          <div className="wrap-inside">
             <SearchChoice data={FiltersData.expertise} />
             <SearchChoice data={FiltersData.focusarea} />
+            <RatingComponent />
             <Filtercheckbox data={FiltersData.price} />
             <Filtercheckbox data={FiltersData.session} />
          </div>
       </div>
    );
 };
+
+// ----------------rating component start
+const RatingComponent = () => {
+   return (
+      <div className="">
+         <h5 className="filter_heading">RATINGS</h5>
+         <ul className="chekbox-ul">
+            <li className="star-list">
+               <input
+                  type="checkbox"
+                  id="hh"
+                  name="vehicle1"
+                  value="Bike"
+               ></input>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+            </li>
+            <li className="star-list">
+               <input
+                  type="checkbox"
+                  id="hh"
+                  name="vehicle1"
+                  value="Bike"
+               ></input>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+            </li>
+         </ul>
+         <ul className="chekbox-ul">
+            <li className="star-list">
+               <input
+                  type="checkbox"
+                  id="hh"
+                  name="vehicle1"
+                  value="Bike"
+               ></input>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+            </li>
+            <li className="star-list">
+               <input
+                  type="checkbox"
+                  id="hh"
+                  name="vehicle1"
+                  value="Bike"
+               ></input>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+            </li>
+         </ul>
+      </div>
+   );
+};
+//--------------------------------rating component end
 
 // searchchioce componenet
 const SearchChoice = (props) => {
