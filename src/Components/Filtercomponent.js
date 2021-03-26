@@ -6,9 +6,11 @@ import CloseIcon from "@material-ui/icons/Close";
 const RenderFilter = () => {
    return (
       <div className="wrap">
-         <SearchChoice />
-         <Filtercheckbox data={FiltersData.price} />
-         <Filtercheckbox data={FiltersData.session} />
+         <div className="wrap-inside">
+            <SearchChoice />
+            <Filtercheckbox data={FiltersData.price} />
+            <Filtercheckbox data={FiltersData.session} />
+         </div>
       </div>
    );
 };
