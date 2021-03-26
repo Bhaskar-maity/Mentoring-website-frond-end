@@ -1,7 +1,7 @@
 import React from "react";
 import "./MainComponent.css";
 import Navbar from "./Navbar";
-import RenderFilter from "./Filtercomponent";
+import CombinedComponenet from "./CombinedComponenet";
 import { Switch, Route } from "react-router-dom";
 export default function MainComponent() {
    const dashboard = () => {
@@ -11,7 +11,7 @@ export default function MainComponent() {
       <div className="main-componenet">
          <Route path="/" component={Navbar} />
          <Switch>
-            <Route path="/findexpert" component={RenderFilter} />
+            <Route path="/findexpert" component={CombinedComponenet} />
          </Switch>
       </div>
    );

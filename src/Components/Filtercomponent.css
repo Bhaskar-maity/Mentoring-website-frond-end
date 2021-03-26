@@ -1,7 +1,7 @@
 .wrap {
    padding: 16px;
    background-color: #f7f9fc;
-   max-width: 30%;
+   width: 30%;
 }
 /* heading */
 .wrap h2 {
