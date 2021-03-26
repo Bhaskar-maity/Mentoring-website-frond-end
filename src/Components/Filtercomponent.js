@@ -15,7 +15,8 @@ const RenderFilter = () => {
    );
 };
 
-const SearchChoice = () => {
+// searchchioce componenet
+const SearchChoice = (props) => {
    return (
       <div classNameName="filter_container">
          <h5 className="filter_heading">Expertise</h5>

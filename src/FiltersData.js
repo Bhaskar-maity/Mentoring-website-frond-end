@@ -1,4 +1,17 @@
 export default {
+   expertise: {
+      name: "Expertise",
+      inside_searchbox: [{ id: 1, label: "Branding" }],
+      outside_searchbox: [{ id: 1, label: "Strategy" }],
+   },
+   focusarea: {
+      name: "focus area",
+      inside_searchbox: [
+         { id: 1, label: "Focus Area" },
+         { id: 2, label: "Focus Area" },
+      ],
+      outside_searchbox: [{ id: 1, label: "Focus Area" }],
+   },
    price: {
       name: "price",
       checkboxes: [
