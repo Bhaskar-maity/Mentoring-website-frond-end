@@ -1,6 +1,6 @@
 .wrap {
    padding: 16px;
-   background-color: #e8f5e9;
+   background-color: #f7f9fc;
    max-width: 30%;
 }
 .wrap-inside {
@@ -33,7 +33,7 @@
 .sidebar-searchContainer {
    display: flex;
    align-items: center;
-   background-color: #e0f2f1;
+   background-color: #f7f9fc;
    width: 95%;
    height: 50px;
    border-radius: 3px;
@@ -43,14 +43,14 @@
    border: none;
    margin-right: 10px;
    width: 80%;
-   background-color: #e0f2f1;
+   background-color: #f7f9fc;
 }
 
 /* searchobox inside */
 .searchbox-inside {
    display: flex;
    align-items: center;
-   background-color: #3d5afe;
+   background-color: #3c67e8;
    color: white;
    border-radius: 15px;
    padding: 4px 15px;
@@ -62,7 +62,7 @@
 .searchbox-outside {
    display: flex;
    align-items: center;
-   background-color: #aed581;
+   background-color: #a7cd6e;
    color: white;
    border-radius: 15px;
    padding: 4px 15px;
