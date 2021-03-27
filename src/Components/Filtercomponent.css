@@ -10,10 +10,11 @@
 .wrap-inside {
    margin: 10px;
    background-color: white;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .filter_container {
    background-color: white;
-   /* padding: 20px; */
+
    max-width: 30%;
 }
 .filter_heading {
@@ -22,6 +23,7 @@
    margin: 20px 20px auto 40px;
    text-transform: uppercase;
    padding-bottom: 8px;
+   padding-top: 15px;
 }
 .checkbox-list {
    list-style-type: none;

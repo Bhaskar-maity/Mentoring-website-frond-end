@@ -12,6 +12,7 @@
    background-color: #ffffff;
    display: flex;
    border: 1px solid #eef1f7;
+   margin: 10px;
 }
 .first {
    align-items: center;
