@@ -32,7 +32,7 @@ export default function ExpertComponenet() {
                      <h5> Founder @ The Milenials</h5>
                   </div>
                   <div className="view-profile">
-                     <FavoriteBorderIcon />
+                     <FavoriteBorderIcon style={{ color: "coral" }} />
                      <button>View Profile</button>
                   </div>
                </div>
