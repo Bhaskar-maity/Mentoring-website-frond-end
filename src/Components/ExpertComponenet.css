@@ -22,3 +22,15 @@
 .second {
    width: 70%;
 }
+
+.button {
+   display: flex;
+   align-items: center;
+   background-color: #edf1f7;
+   color: lightsteelblue;
+   border-radius: 15px;
+   padding: 4px 15px;
+   margin: 5px;
+   max-width: 90px;
+   max-height: 30px;
+}
