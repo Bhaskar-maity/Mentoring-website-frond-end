@@ -8,18 +8,30 @@
 }
 /* box */
 .box {
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
    background-color: #ffffff;
    display: flex;
-   border: 1px solid #a9b8ca;
+   border: 1px solid #eef1f7;
 }
 .first {
    align-items: center;
+   justify-content: center;
    width: 20%;
    padding: 20px 30px;
 }
-.profile-img {
+.first > h5 {
+   display: flex;
+   justify-content: center;
+}
+.first > p {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.first > .profile-img {
    width: 150px !important;
    height: 150px !important;
+   margin-left: 16px;
 }
 .second {
    width: 80%;
@@ -28,7 +40,7 @@
 .button {
    display: flex;
    align-items: center;
-   background-color: #edf1f7;
+   background-color: whitesmoke;
    color: lightsteelblue;
    border-radius: 15px;
    padding: 4px 15px;
@@ -40,6 +52,7 @@
 .heading {
    display: flex;
    justify-content: space-between;
+   border-bottom: 1px solid #a9b8ca;
 }
 .heading > .view-profile {
    display: flex;
@@ -56,10 +69,18 @@
    color: white;
 }
 
+.name > h5 {
+   color: darkgray;
+   margin-top: 5px !important;
+}
+.name > h1 {
+   color: darkslategray;
+   margin-bottom: 5px !important;
+}
 .offer {
    display: flex;
-
-   margin: 5px;
+   color: lightsteelblue;
+   margin: 2px;
 }
 .offer > h5 {
    display: flex;
