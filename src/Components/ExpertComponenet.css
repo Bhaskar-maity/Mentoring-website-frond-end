@@ -10,17 +10,18 @@
 .box {
    background-color: #ffffff;
    display: flex;
+   border-color: #a9b8ca;
 }
 .first {
    align-items: center;
-   width: 30%;
+   width: 25%;
 }
 .profile-img {
    width: 150px !important;
    height: 150px !important;
 }
 .second {
-   width: 70%;
+   width: 75%;
 }
 
 .button {
@@ -33,4 +34,35 @@
    margin: 5px;
    max-width: 90px;
    max-height: 30px;
+}
+
+.heading {
+   display: flex;
+   justify-content: space-between;
+}
+.offer {
+   display: flex;
+
+   margin: 5px;
+}
+.offer > h5 {
+   margin-right: 10px;
+   justify-content: center;
+   align-items: center;
+}
+.specification {
+   display: flex;
+   padding: 10px;
+}
+.specification > button {
+   display: flex;
+   align-items: center;
+   background-color: #edf1f7;
+   color: lightsteelblue;
+   border-radius: 15px;
+   padding: 4px 15px;
+   margin: 5px;
+   max-width: 90px;
+   max-height: 30px;
+   border: none;
 }
