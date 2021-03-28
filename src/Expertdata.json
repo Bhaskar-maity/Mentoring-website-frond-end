@@ -1,50 +1,72 @@
 {
-   "expert1": {
-      "name": "Daavid Melvik",
-      "company": "@ The Milenials & CEO of ABC",
-      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
-      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
-      "specification": [
-         "Marketing",
-         "SEO",
-         "Content Marketing",
-         "Marketing Automation"
-      ]
-   },
-   "expert2": {
-      "name": "Daavid Melvik",
-      "company": "@ The Milenials & CEO of ABC",
-      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
-      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
-      "specification": [
-         "Marketing",
-         "SEO",
-         "Content Marketing",
-         "Marketing Automation"
-      ]
-   },
-   "expert3": {
-      "name": "Daavid Melvik",
-      "company": "@ The Milenials & CEO of ABC",
-      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
-      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
-      "specification": [
-         "Marketing",
-         "SEO",
-         "Content Marketing",
-         "Marketing Automation"
-      ]
-   },
-   "expert4": {
-      "name": "Daavid Melvik",
-      "company": "@ The Milenials & CEO of ABC",
-      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
-      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
-      "specification": [
-         "Marketing",
-         "SEO",
-         "Content Marketing",
-         "Marketing Automation"
-      ]
-   }
+   "experts": [
+      {
+         "name": "Daavid Melvik",
+         "profile_img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "company": "@ The Milenials & CEO of ABC",
+         "offer_details": [
+            "02 Free lessons",
+            "Tampa ,Usa",
+            "Greek , Eng, French"
+         ],
+         "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+         "specification": [
+            "Marketing",
+            "SEO",
+            "Content Marketing",
+            "Marketing Automation"
+         ]
+      },
+      {
+         "name": "Daavid Melvik",
+         "profile_img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "company": "@ The Milenials & CEO of ABC",
+         "offer_details": [
+            "02 Free lessons",
+            "Tampa ,Usa",
+            "Greek , Eng, French"
+         ],
+         "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+         "specification": [
+            "Marketing",
+            "SEO",
+            "Content Marketing",
+            "Marketing Automation"
+         ]
+      },
+      {
+         "name": "Daavid Melvik",
+         "profile_img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "company": "@ The Milenials & CEO of ABC",
+         "offer_details": [
+            "02 Free lessons",
+            "Tampa ,Usa",
+            "Greek , Eng, French"
+         ],
+         "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+         "specification": [
+            "Marketing",
+            "SEO",
+            "Content Marketing",
+            "Marketing Automation"
+         ]
+      },
+      {
+         "name": "Daavid Melvik",
+         "profile_img": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+         "company": "@ The Milenials & CEO of ABC",
+         "offer_details": [
+            "02 Free lessons",
+            "Tampa ,Usa",
+            "Greek , Eng, French"
+         ],
+         "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+         "specification": [
+            "Marketing",
+            "SEO",
+            "Content Marketing",
+            "Marketing Automation"
+         ]
+      }
+   ]
 }
