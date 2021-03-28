@@ -6,6 +6,22 @@
 .wrapExpert h2 {
    padding: 30px 0 20px 25px;
 }
+.expertheader {
+   display: flex;
+   justify-content: space-between;
+}
+.expertheader select {
+   position: relative;
+   min-width: 200px;
+   height: 30px;
+   background-color: white;
+   color: black;
+   font-weight: bold;
+   border: none;
+}
+.expertheader > .options {
+   padding-top: 45px;
+}
 /* box */
 .box {
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

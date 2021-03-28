@@ -8,7 +8,17 @@ import TitleIcon from "@material-ui/icons/Title";
 export default function ExpertComponenet() {
    return (
       <div className="wrapExpert">
-         <h2>Feature Experts</h2>
+         <div className="expertheader">
+            <h2>Feature Experts</h2>
+            <div className="options">
+               <select>
+                  <option value="actual value 1">Best Match</option>
+                  <option value="actual value 1">Display Text 1</option>
+                  <option value="actual value 2">Display Text 2</option>
+                  <option value="actual value 3">Display Text 3</option>
+               </select>
+            </div>
+         </div>
 
          <div className="box">
             <div className="first">
