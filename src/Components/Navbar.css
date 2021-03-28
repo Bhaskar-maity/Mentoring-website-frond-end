@@ -33,11 +33,20 @@
 
 .profile {
    flex: 0.2;
-
+   display: flex;
    float: right;
+   align-items: center;
 }
 .is-active {
    padding-bottom: 15px;
    border-bottom: 4px solid orange;
    color: orange;
+}
+.profile > .MuiSvgIcon-root {
+   padding: 0 8px;
+   color: orange;
+}
+.profile > .MuiAvatar-circle {
+   width: 30px;
+   height: 30px;
 }

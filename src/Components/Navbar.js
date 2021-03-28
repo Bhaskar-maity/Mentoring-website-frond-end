@@ -2,6 +2,11 @@ import React from "react";
 import "./Navbar.css";
 import { NavLink } from "react-router-dom";
 import FiberManualRecordIcon from "@material-ui/icons/FiberManualRecord";
+import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
+import ChatBubbleOutlineIcon from "@material-ui/icons/ChatBubbleOutline";
+
+import { Avatar } from "@material-ui/core";
+
 export default function Navbar() {
    return (
       <div>
@@ -30,7 +35,9 @@ export default function Navbar() {
                </ul>
             </div>
             <div className="profile">
-               <h1>profile</h1>
+               <NotificationsNoneIcon />
+               <ChatBubbleOutlineIcon />
+               <Avatar src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
             </div>
          </nav>
       </div>
