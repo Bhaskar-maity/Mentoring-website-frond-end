@@ -36,6 +36,12 @@
    width: 20%;
    padding: 20px 30px;
 }
+.rating {
+   color: lightsalmon;
+}
+.price-tag {
+   color: mediumaquamarine;
+}
 .first > h5 {
    display: flex;
    justify-content: center;

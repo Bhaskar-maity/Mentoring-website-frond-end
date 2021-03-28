@@ -19,7 +19,7 @@ export default function Navbar() {
                   </li>
                   <li>
                      <NavLink to="/findexpert" activeClassName="is-active">
-                        FindExpert
+                        Find Experts
                      </NavLink>
                   </li>
                   <li>

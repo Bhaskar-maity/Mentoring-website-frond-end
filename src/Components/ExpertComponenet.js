@@ -28,11 +28,12 @@ export default function ExpertComponenet() {
                   <div className="first">
                      <Avatar className="profile-img" src={expert.profile_img} />
                      <h5>
-                        Price: <span>FREE</span>
+                        Price: <span className="price-tag">FREE</span>
                      </h5>
 
                      <p>
-                        <span class="fa fa-star checked"></span> 4.9 (120)
+                        <span class="fa fa-star checked"></span>{" "}
+                        <span className="rating">4.9</span> (120)
                      </p>
                   </div>
 
