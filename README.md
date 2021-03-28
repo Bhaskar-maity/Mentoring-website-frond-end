@@ -1,3 +1,3 @@
-# Mentoring website frond end by React.js
+# Mentoring website front end by React.js
 
 
