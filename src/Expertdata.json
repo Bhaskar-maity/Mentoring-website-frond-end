@@ -1,0 +1,50 @@
+{
+   "expert1": {
+      "name": "Daavid Melvik",
+      "company": "@ The Milenials & CEO of ABC",
+      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+      "specification": [
+         "Marketing",
+         "SEO",
+         "Content Marketing",
+         "Marketing Automation"
+      ]
+   },
+   "expert2": {
+      "name": "Daavid Melvik",
+      "company": "@ The Milenials & CEO of ABC",
+      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+      "specification": [
+         "Marketing",
+         "SEO",
+         "Content Marketing",
+         "Marketing Automation"
+      ]
+   },
+   "expert3": {
+      "name": "Daavid Melvik",
+      "company": "@ The Milenials & CEO of ABC",
+      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+      "specification": [
+         "Marketing",
+         "SEO",
+         "Content Marketing",
+         "Marketing Automation"
+      ]
+   },
+   "expert4": {
+      "name": "Daavid Melvik",
+      "company": "@ The Milenials & CEO of ABC",
+      "offer-details": ["02 Free lessons", "Tampa ,Usa", "Greek , Eng, French"],
+      "para": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dignissimos dolorem alias obcaecati consectetur consequatur, repellat ab architecto vero sapiente.",
+      "specification": [
+         "Marketing",
+         "SEO",
+         "Content Marketing",
+         "Marketing Automation"
+      ]
+   }
+}
