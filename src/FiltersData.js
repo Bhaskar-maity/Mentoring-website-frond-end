@@ -29,4 +29,15 @@ export default {
          { id: 3, label: "15 min" },
       ],
    },
+   session: {
+      name: "Language",
+      checkboxes: [
+         { id: 1, label: "English" },
+         { id: 2, label: "French" },
+         { id: 3, label: "German" },
+         { id: 4, label: "Hindi" },
+         { id: 5, label: "Arabic" },
+         { id: 6, label: "Mandian Chinese" },
+      ],
+   },
 };
